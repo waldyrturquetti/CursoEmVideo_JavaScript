@@ -1,0 +1,22 @@
+************************************************ Módulo C ************************************************
+
+Aula 9
+
+- Usar apenas a extenção do Visual Studio Code 'Live Server'
+- DOM (Document Object Model) é um conjunto de objetos dentro no navegador, que da acesso aos componentes dentro do site
+- Árvore DOM: 
+EX : window(A janela do navegador) e seus filhos location, Document, history e etc.
+e esses filhos tem mais filhos como visto na imagem.
+- Métodos de acesso: por Marca, por ID, por Nome, por Classe e por Seletor
+
+
+Aula 10
+
+- Eventos DOM: Ex em uma div, quando passamos o mouse por ela o evento mouseenter é disparado, 
+quando movemos o mouse na div o evento mousemove é disparado,
+quando apertamos com o botão do mouse em uma div é disparado o mousedown
+quando paramos de apertar é o mouseup
+quando clicamos é o evento click
+quando saímos da div é o mouseout
+- Quando ocorre um erro no JavaScript não somos avisados direatamente, apenas nada funciona do jeito que deveria funcionar.
+Para vermos melhor qual é o erro utilizamos o inspecionar

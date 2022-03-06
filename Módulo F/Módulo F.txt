@@ -1,0 +1,26 @@
+************************************************ Módulo F ************************************************
+
+Aula 15
+
+- Varíaveis Compostas: varíaveis simples só conseguem armazenar um valor por vez,
+já as varíaveis compostas (Arrays) devem ser capazes de armazenar vários valores em uma mesma estrutura
+
+
+Aula 16
+
+- Funções: São ações executadas assim que são chamadas ou em decorrência de algum evento.
+Uma função pode receber parâmetros e retornar um resultado.
+
+Aula 17
+
+- Próximos passos: 
+    Curso de HTML5 & CSS3 
+    Estudar mais functions: Arrow function, callbacks, funções anônimas, IIFE, javaScript funcional
+    Estudar mais objetos
+    Estudar mais modularização
+    Estudar expressões regulares (RegEx)
+    Estudar JSON
+    Estudar AJAX
+    Estudar NodeJS
+- Objetos: Para declarar em javaScript é let amigo = {nome:'José', sexo:'M', peso:85.4, engordar(p){}}
+Como vemos um objeto em JS posui atributos e métodos

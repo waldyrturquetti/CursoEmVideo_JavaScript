@@ -1,0 +1,63 @@
+******************* Módulo A *******************
+
+Aula 1
+
+Client x Server:
+- Nós somos os clientes, quando requisitamos uma url(Endereço), somos redirecionados para um servidor especifico, que tal nós enviam arquivos(HTML).
+- Web Site: É divídido em três tecnologias: 
+	Contudo(Texto, Imagens e vídeos) - HTML
+	Designer(Cores, Tamanhos e Posições) - CSS
+	Interações - JavaScript
+- Todos os comandos que fazemos no console só é alterado na nossa máquina e naquela sessão, se fecharmos e abrimos ou somente atualizar volta ao normal.
+
+Comandos: 
+- alert('Olá Mundo') : Aparece uma mensagem de Alerta escrita "Olá Mundo"
+- document.body.style.background = 'black' : Deixa o fundo do browser preto
+- document.querySelector.('img#hplogo').style.filter = 'grayscale(100%)' : Nesse comando especifo, se estivermos na página inical  do google,
+a logo da google fica cinza.
+- document.querySelector('img#hplogo').style.visibility = 'hidden' : Nesse comando especifo, se estivermos na página inical  do google,
+a logo da google some.
+- document.querySelector('span.bstn-hl-title').innerText = 'O waldyrZão é o cara' : Nesse comando especifo, se estivermos na página inical  do g1,
+alteramos o título da notícia.
+
+
+Aula 2
+
+Internet:
+- A Internet em 1970 foi criado a Arpanet, que sofreu diversas modificações e atualizações para se tornar a internet de hoje.
+- Em 1993 Foi criado o HTML e o WWW e as requisições HTTP
+- 2002 foi criado o MozilaFirefox, dos mesmos criados do Netscape que foi criado em 1994
+- 2008 foi criado o Google Chome
+- V8 é o motor em JavaScrit do google chome e também o motor do NodeJS
+
+JavaScript != de Java:
+- 1995 foi criado o JavaSrcipt, pois o Java estava bem famoso, o comum entre eles é que ambos foram baseados em C
+
+ECMAScript:
+- 1995 foi criado o JavaSrcipt, pois o Java estava bem famoso.
+
+Bibliotecas e Frameworks em JavaScript:
+- Biblioteca JQuery
+- Framework Angular da google
+- Framework React do Facebook
+- Framework Vue
+- Framework Electron do github (OBS o visual studio é feito em electron)
+- SDK Ionic
+- Apache Cordava
+
+Aula 3
+
+Guia mozila de JavaScript:
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+Programas: 
+- Google Chrome, NodeJs, Visual Studio Code
+
+
+Aula 4
+
+
+
+
+
+

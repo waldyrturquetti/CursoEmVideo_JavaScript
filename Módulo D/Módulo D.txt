@@ -1,0 +1,16 @@
+************************************************ Módulo D ************************************************
+
+Aula 11
+
+- Sequências: As instruções/comandos são feitas em Sequências TopDown,
+ou seja, de cima para baixo e na ordem, não pulamos instruções (podemos pular blocos de instruções 
+de if e else, ou não realizar blocos de funções se essas funções não forem invocadas).
+
+
+Aula 12
+
+- Condições Aninhadas: ifs e elses dentro de outros ifs e elses,
+ou seja condições dentro de condições (else if)
+- Condição Múltipla (switch): Serve para valores fixos.
+Para cada case é necessário um break e se nenhum dos 
+valores fixos servirem é usado o default no final

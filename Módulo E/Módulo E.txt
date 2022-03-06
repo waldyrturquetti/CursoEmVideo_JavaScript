@@ -1,0 +1,22 @@
+************************************************ Módulo E ************************************************
+
+Aula 13
+
+Estruturas de Repetições: while - Verifica primeiro as condições e depois executa
+do while - Executa primeiro e depois verifica as condições
+
+
+Aula 14
+
+- Estruturas de Repetições com variáveis de controle: for - as varíaveis são incrementadas e ou decrementadas
+até que chegue no valor desejado e saia do loop
+for (inicio; teste; incremento)
+- Modo de Depuração (Debug): Ajuda ver os valores das variáveis de controle
+e entender melhor o for
+
+Aula ex005
+
+- Varíaveis: a diferença entre let e var é o escopp, ou seja, let só vai existir no bloco criado já
+o var em todo o código ou na função.
+- link para os emojis:
+https://unicode.org/emoji/charts/full-emoji-list.html

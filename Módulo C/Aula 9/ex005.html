@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com o DOM</title>
+    <style>
+        body {
+            background: rgb(68, 125, 199);
+            color: azure;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo usar o <strong>DOM</strong> em JavaScript. </p>
+    <div id='msg'>Clique em mim</div>
+    <!-- <div name='msg'>Clique em mim</div> -->
+    <div class='msg1'>Clique em mim</div>
+
+    <script>
+        //window.document.write('Olá Mundo')
+        //window.document.write(window.document.characterSet) //Padrão dos Caracteres
+        //window.document.write(window.document.URL)      //Mostra a URL que desse arquivo
+
+        //Selecionando por Marca
+        // var corpo = window.document.body
+        // var p1 = window.document.getElementsByTagName('p')[1]
+        // //window.document.write('Está escrito assim ' + p1.innerText) //vem apenas com o texto
+        // window.document.write('Está escrito assim ' + p1.innerHTML) //vem com o texto e as TAGs
+        // corpo.style.background = 'black'
+        // p1.style.color = 'blue'
+        // window.alert(p1.innerHTML)
+
+        //Selecionando por ID
+        // var d = window.document.getElementById('msg')
+        // d.style.background = 'green'
+        // d.innerText = 'Estou aguardando...' //altera o texto div de ID='msg'
+
+        //Selecionando por Name
+        // var d = window.document.getElementsByName('msg')[0]
+        // d.innerText = 'Olá' //altera o texto div de name='msg'
+        // // Mesma coisa selecionando por classe
+
+        //Selecionando por Seletor
+        var d = window.document.querySelector('div#msg')    //Desse jeito é para divs com id
+        d.style.background = 'green'
+        
+        var d1 = window.document.querySelector('div.msg1')  //Desse jeito é para divs com class
+        d1.style.background = 'black'
+        
+    </script>
+</body>
+</html>

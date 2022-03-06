@@ -1,0 +1,83 @@
+************************************************ Módulo B ************************************************
+
+Aula 5
+
+Comentários:
+- // Uma única linha
+- /* */ Pode ser uma linha e/ou um conjunto de linhas de código
+
+Variável:
+- Os espaços onde ficam as variáveis é a memória, cada variável ocupa um endereço na memória
+- Para números (int e float) e para strings usamos o var.
+- O nome das variáveis são chamados de identificadores.
+- Os identificadores
+    Podem começar com letra, $ ou _
+    Não podem começar com números
+    É possível usar letras e números
+    É possível usar acentos e símbolos
+    Não podem conter espaços
+    Não podem ser palavras reservadas
+- Exemplo var n1 = 8, var &nome = `Waldyr`, var _nome2 = 'Waldyr Lindo', var módulo = "Módulo B"
+- var B != var b
+- typeof variável : informa o tipo de variável
+
+
+Aula 6
+
+Variáveis:
+- var s = 'JavaScript'
+    'Eu estou programando em s' = Eu estou programando em s                 //não faz interpolação
+    'Eu estou programando em ' + s = Eu estou programando em JavaScript     //usa concatenação
+    `Eu estou aprendendo ${s}` = Eu estou programando em JavaScript         //usa template string
+- s.lenght : quantos caracteres a string tem
+- s.toUpperCase(): tudo para 'MAIÚSCULAS'
+- s.toLowerCase(): tudo para 'minúsculas'
+- Comandos de formatação de números: 
+        var n1 = 1545.5
+        n1.toFixed(2) //fixa 2 números nas casas decimais.
+        n1.toFixed(2).replace('.', ',') //troca o ponto por vírgula
+        n1.toLocaleString('pt-BR', {style : 'currency', currency: 'BRL'})   //coloca no padrão da moeda brasileira
+
+
+Aula 7
+
+- Operadores Aritméticos: +, -, *, / - divisão real, % - resto da inteira, ** - potência
+- Ordem de Precedência: () > ** > *, /, % > +, -
+- Auto-atribuições: var n = 3
+                    n = n + 4
+                    n == 7
+- Simplificando: n += 4
+                 n -= 5
+                 n *= 4
+                 n /= 2
+                 n **= 2
+                 n %= 5
+- Atribuições (Incremento e Decremento): var x = 5
+              x++ (Igual a x += 1)
+              x-- (Igual a x -= 1)
+              ++x (é o mesmo resultado que o x++)
+              --x (é o mesmo resultado que o x--)
+
+
+Aula 8
+
+- Operadores Relacionais: >, <, >=, <=, ==, != 
+Os resultados dessas operações são sempre valores booleanas, true e false
+- Em JavaScript, 5 == '5' é true, ou seja o JavaScript aceita valores iguais e de tipos diferentes
+Agora já o Operador ===, em ação 5 === '5' é false, pois está vendo se são identicos.
+E também 5 != '5' é false e 5 !== '5' é true
+- Operadores Lógicos: !, &&, ||
+Na ordem de Precedência, primeiro é feito o !, depois o && e por fim o ||
+- Em uma senteça lógica primeiro os Operadores aritméticos, depois os Operadores Relacionais e por fim os Operadores lógicos.
+- Operador ternário:
+                        teste ? true : false
+EX:
+var idade = 19
+var r = idade >= 18 ? 'MAIOR' : 'MENOR'
+O valor de r é 'MAIOR'
+
+var média = 5.5
+média > 7 ? 'Aprovado' : 'Reprovado'
+O resultado dessa sentença é Reprovado
+
+              

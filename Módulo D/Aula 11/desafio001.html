@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidades</title>
+</head>
+<body>
+
+    <h1>Sistema de Estrangeiros</h1>
+    Vivendo em: <input type="text" name="vel" id="txt">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res"></div>
+
+    <script>
+
+        function verificar() {
+
+            var txt2 = window.document.querySelector('input#txt')   //Envia para o txt2 um objeto que contem o texto que escrevos no input#txt
+            var res = window.document.querySelector("div#res")      //Colocamos a div na variável res para podermos rescrever 
+                                                                    //e/ou adicionar mais textos na div em questão
+            var txt3 = txt2.value                                   //Passa para o txt3 o texto que foi escrito no input, não o objeto
+            
+            if (txt3.toUpperCase() == 'BRASIL'){
+                res.innerHTML += `<p>Você é <strong> Brasileiro </strong>`
+            }
+            else{
+                res.innerHTML += `<p>Você é <strong> Estrangeiro </strong>`
+            }
+        }
+
+    </script>
+</body>
+</html>
